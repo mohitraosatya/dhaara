@@ -60,7 +60,7 @@ export default function ContactPage() {
                 {/* Philosophy note */}
                 <div>
                   <p className="text-warm text-base leading-relaxed font-light mb-6">
-                    Dhara is a small workshop. There is no support ticket system, no
+                    Dhaara is a small workshop. There is no support ticket system, no
                     automated response, no FAQ chatbot. When you write to us, a person
                     reads it and a person responds. Usually within 48 hours — sometimes
                     sooner.
@@ -92,10 +92,10 @@ export default function ContactPage() {
                         Email
                       </p>
                       <Link
-                        href="mailto:hello@dharacraft.com"
+                        href="mailto:hello@dhaara.shop"
                         className="text-charcoal hover:text-terracotta transition-colors text-sm"
                       >
-                        hello@dharacraft.com
+                        hello@dhaara.shop
                       </Link>
                     </div>
                   </div>

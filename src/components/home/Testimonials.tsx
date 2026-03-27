@@ -95,7 +95,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
           <SectionHeader
             eyebrow="What Our Community Says"
             headline="Carried with love"
-            body="Words from the people who carry Dhara every day."
+            body="Words from the people who carry Dhaara every day."
             align="center"
           />
         </AnimatedReveal>

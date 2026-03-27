@@ -33,7 +33,7 @@ export default function ProductPageClient({ product, relatedProducts }: ProductP
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hi! I'd like to order the following from Dhara:\n\n*${product.name}*\nQty: ${quantity}\nPrice: ₹${(product.price * quantity).toLocaleString('en-IN')}\n\nPlease confirm availability and share payment details. Thank you!`
+    `Hi! I'd like to order the following from Dhaara:\n\n*${product.name}*\nQty: ${quantity}\nPrice: ₹${(product.price * quantity).toLocaleString('en-IN')}\n\nPlease confirm availability and share payment details. Thank you!`
   );
 
   return (
@@ -216,7 +216,6 @@ export default function ProductPageClient({ product, relatedProducts }: ProductP
                 { label: 'Material', value: 'Natural Canvas' },
                 { label: 'Embroidery', value: 'Hand-stitched' },
                 { label: 'Delivery', value: '3–5 business days' },
-                { label: 'Returns', value: 'Free · 7 days' },
               ].map((fact) => (
                 <div key={fact.label} className="bg-[#F3EBDD] px-3 py-3">
                   <p className="text-[0.6rem] tracking-[0.15em] uppercase text-[#8FA184] mb-0.5">{fact.label}</p>

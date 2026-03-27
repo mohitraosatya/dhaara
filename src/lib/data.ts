@@ -308,7 +308,7 @@ export const testimonials: Testimonial[] = [
     id: '5',
     name: 'Rhea S.',
     location: 'Pune',
-    text: 'The Herb Keeper is my everyday bag now. It is sturdy, spacious, and the embroidery still looks perfect after three months of daily use. Dhara clearly uses excellent materials.',
+    text: 'The Herb Keeper is my everyday bag now. It is sturdy, spacious, and the embroidery still looks perfect after three months of daily use. Dhaara clearly uses excellent materials.',
     rating: 5,
   },
   {

@@ -73,7 +73,7 @@ export default function Navbar() {
                 textColor
               )}
             >
-              DHARA
+              DHAARA
             </Link>
 
             {/* Right: Nav Links + Icons (Desktop) */}
@@ -159,7 +159,7 @@ export default function Navbar() {
               {/* Drawer Header */}
               <div className="flex items-center justify-between p-6 border-b border-beige/30">
                 <span className="font-serif text-xl tracking-[0.3em] text-charcoal uppercase">
-                  DHARA
+                  DHAARA
                 </span>
                 <button
                   onClick={() => setIsMenuOpen(false)}

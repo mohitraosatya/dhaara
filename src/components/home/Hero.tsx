@@ -82,8 +82,7 @@ export default function Hero() {
               {[
                 { label: '100% Handmade', sub: 'Every single stitch' },
                 { label: 'Ship in 3–5 days', sub: 'Made to order' },
-                { label: 'Free returns', sub: 'If you\'re not happy' },
-              ].map((item) => (
+                ].map((item) => (
                 <div key={item.label}>
                   <p className="text-[#3A302B] text-xs font-medium tracking-wide">{item.label}</p>
                   <p className="text-[#5A4A42] text-xs font-light">{item.sub}</p>

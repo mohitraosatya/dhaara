@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Top section: Wordmark + tagline */}
           <div className="text-center mb-20">
             <h2 className="font-serif text-6xl md:text-8xl tracking-[0.3em] uppercase text-cream font-light mb-6">
-              DHARA
+              DHAARA
             </h2>
             <p className="font-serif text-xl md:text-2xl italic text-sand/70 tracking-wide">
               Where thread becomes story
@@ -92,7 +92,7 @@ export default function Footer() {
           {/* Bottom bar */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex flex-col md:flex-row items-center gap-4 text-xs text-sand/40 font-light">
-              <span>© {currentYear} Dhara. All rights reserved.</span>
+              <span>© {currentYear} Dhaara. All rights reserved.</span>
               <span className="hidden md:inline">·</span>
               <Link href="/privacy" className="hover:text-sand/70 transition-colors">
                 Privacy Policy

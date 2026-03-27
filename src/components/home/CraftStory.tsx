@@ -15,7 +15,7 @@ export default function CraftStory() {
             <div className="relative aspect-[3/4] overflow-hidden">
               <Image
                 src="/products/the-melody.png"
-                alt="A Dhara handcrafted tote bag in a warm artisan setting"
+                alt="A Dhaara handcrafted tote bag in a warm artisan setting"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -54,7 +54,7 @@ export default function CraftStory() {
               {/* Body */}
               <div className="space-y-5 text-warm text-base leading-relaxed font-light mb-10">
                 <p>
-                  Dhara begins not in a factory, but at a loom, a table, a pair of hands
+                  Dhaara begins not in a factory, but at a loom, a table, a pair of hands
                   that have spent years learning how thread moves. Each bag starts as a
                   length of fabric — chosen for its weight, its texture, its capacity to
                   hold stitching.

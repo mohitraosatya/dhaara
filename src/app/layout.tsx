@@ -19,11 +19,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Dhara — Where Thread Becomes Story',
-    template: '%s | Dhara',
+    default: 'Dhaara — Where Thread Becomes Story',
+    template: '%s | Dhaara',
   },
   description:
-    'Dhara crafts handmade tote bags stitched with intention. Each piece carries the memory of its making — slow fashion, purposeful design, handcrafted in India.',
+    'Dhaara crafts handmade tote bags stitched with intention. Each piece carries the memory of its making — slow fashion, purposeful design, handcrafted in India.',
   keywords: [
     'handmade tote bags',
     'slow fashion',
@@ -31,20 +31,20 @@ export const metadata: Metadata = {
     'embroidered bags',
     'sustainable fashion',
     'artisan bags',
-    'Dhara',
+    'Dhaara',
   ],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://dharacraft.com',
-    siteName: 'Dhara',
-    title: 'Dhara — Where Thread Becomes Story',
+    url: 'https://dhaara.shop',
+    siteName: 'Dhaara',
+    title: 'Dhaara — Where Thread Becomes Story',
     description:
       'Handmade tote bags crafted with intention. Made slowly, carried beautifully.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dhara — Where Thread Becomes Story',
+    title: 'Dhaara — Where Thread Becomes Story',
     description:
       'Handmade tote bags crafted with intention. Made slowly, carried beautifully.',
   },

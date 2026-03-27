@@ -9,7 +9,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Our Story',
   description:
-    'Dhara means thread, flow, continuity. Learn how our handmade tote bags are born from a tradition of slow, intentional craft.',
+    'Dhaara means thread, flow, continuity. Learn how our handmade tote bags are born from a tradition of slow, intentional craft.',
 };
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
         <div className="relative h-[65vh] min-h-[480px] overflow-hidden">
           <Image
             src="/products/lavender-field.png"
-            alt="The Dhara story — craft and intention"
+            alt="The Dhaara story — craft and intention"
             fill
             priority
             sizes="100vw"
@@ -46,7 +46,7 @@ export default function AboutPage() {
           <AnimatedReveal direction="up" className="text-center mb-20">
             <p className="eyebrow mb-6">The Name</p>
             <h2 className="font-serif text-4xl md:text-6xl text-charcoal font-light leading-tight mb-8">
-              Dhara — Thread. Flow. Continuity.
+              Dhaara — Thread. Flow. Continuity.
             </h2>
             <div className="h-px w-24 bg-beige mx-auto mb-8" />
           </AnimatedReveal>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                   time.
                 </p>
                 <p>
-                  Dhara began as a question: what would it mean to make something purely
+                  Dhaara began as a question: what would it mean to make something purely
                   well? Not efficiently. Not cheaply. Not quickly. Just — well. With care
                   at every level. With hands that understand what they&apos;re doing.
                 </p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
             <AnimatedReveal direction="right" delay={0.2} className="md:pt-12">
               <p className="eyebrow mb-5">The Making</p>
               <h2 className="font-serif text-4xl md:text-5xl text-charcoal font-light leading-tight mb-8">
-                How a bag becomes a Dhara bag
+                How a bag becomes a Dhaara bag
               </h2>
 
               <div className="space-y-5 text-warm text-base leading-relaxed font-light">
@@ -194,11 +194,11 @@ export default function AboutPage() {
               },
               {
                 title: 'The cost of care',
-                body: 'A Dhara bag costs more than a mass-produced bag. It should. It takes longer to make, uses better materials, and will outlast anything made by machine. We price for sustainability, not competition.',
+                body: 'A Dhaara bag costs more than a mass-produced bag. It should. It takes longer to make, uses better materials, and will outlast anything made by machine. We price for sustainability, not competition.',
               },
               {
                 title: 'What is not here',
-                body: 'There are no synthetic materials in a Dhara bag. No glue where stitching can be used. No shortcut that compromises the work. What is not in the bag is as important as what is.',
+                body: 'There are no synthetic materials in a Dhaara bag. No glue where stitching can be used. No shortcut that compromises the work. What is not in the bag is as important as what is.',
               },
             ].map((item, index) => (
               <AnimatedReveal key={item.title} direction="up" delay={index * 0.1}>
@@ -230,14 +230,14 @@ export default function AboutPage() {
 
                 <div className="space-y-5 text-warm text-base leading-relaxed font-light">
                   <p>
-                    Dhara was founded by a designer who grew up watching her grandmother
+                    Dhaara was founded by a designer who grew up watching her grandmother
                     embroider — not as a hobby, but as the primary way she understood the
                     world. The grandmother would say: <em className="text-charcoal">a good stitch knows where it belongs.</em>
                   </p>
                   <p>
                     Years later, after a decade in fast fashion, the founder found herself
                     unable to look at another garment made in a way she couldn&apos;t
-                    respect. Dhara was born from the question of what it would mean to
+                    respect. Dhaara was born from the question of what it would mean to
                     make things the way her grandmother made them.
                   </p>
                   <p>
@@ -252,7 +252,7 @@ export default function AboutPage() {
                 <div className="relative aspect-[3/4] overflow-hidden">
                   <Image
                     src="/products/moon-garden.png"
-                    alt="The Moon Garden — a Dhara original"
+                    alt="The Moon Garden — a Dhaara original"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"

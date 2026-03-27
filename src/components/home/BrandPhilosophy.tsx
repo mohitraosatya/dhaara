@@ -39,7 +39,7 @@ const pillars = [
     ),
     title: 'Purposeful Design',
     description:
-      'Nothing in a Dhara bag exists by accident. The proportions, the stitching depth, the handle length — everything is decided through use and revision, until the bag works as beautifully as it looks.',
+      'Nothing in a Dhaara bag exists by accident. The proportions, the stitching depth, the handle length — everything is decided through use and revision, until the bag works as beautifully as it looks.',
   },
 ];
 

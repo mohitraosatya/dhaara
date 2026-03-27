@@ -40,7 +40,7 @@ export default function Gallery() {
         <AnimatedReveal direction="up" className="mb-12 text-center">
           <p className="eyebrow mb-4">As Carried</p>
           <h2 className="font-serif text-4xl md:text-5xl text-charcoal font-light mb-4">
-            Life with Dhara
+            Life with Dhaara
           </h2>
           <p className="text-warm text-sm">
             <Link
@@ -80,9 +80,9 @@ export default function Gallery() {
                 whileHover={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
               >
-                {/* Dhara mark */}
+                {/* Dhaara mark */}
                 <div className="text-cream font-serif text-xl tracking-[0.3em]">
-                  DHARA
+                  DHAARA
                 </div>
                 {/* Instagram icon */}
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-cream/80">
