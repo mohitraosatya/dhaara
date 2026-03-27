@@ -124,6 +124,31 @@ export default function HomePage() {
         {/* ── TESTIMONIALS ──────────────────────────────────────── */}
         <Testimonials testimonials={testimonials} />
 
+        {/* ── CUSTOM ORDER BANNER ───────────────────────────────── */}
+        <section className="py-20 bg-[#3A302B]">
+          <div className="max-w-4xl mx-auto px-6 md:px-10 text-center">
+            <AnimatedReveal>
+              <p className="text-[0.65rem] tracking-[0.35em] uppercase text-[#C8A46A] mb-5">
+                One of a kind
+              </p>
+              <h2 className="font-serif text-4xl md:text-5xl text-[#F7F2EA] font-light leading-tight mb-5">
+                Want a bag that carries<br />
+                <span className="italic text-[#D8A6A1]">your story?</span>
+              </h2>
+              <p className="text-[#E8D8C3]/70 text-base font-light max-w-lg mx-auto mb-10 leading-relaxed">
+                Tell us about a memory, a person, a place, or a feeling. We will design
+                and embroider a bag that is entirely, unmistakably yours.
+              </p>
+              <Link
+                href="/custom-order"
+                className="inline-flex items-center justify-center px-10 py-4 bg-[#B86F52] text-white text-[0.65rem] tracking-[0.3em] uppercase hover:bg-[#F7F2EA] hover:text-[#3A302B] transition-colors duration-300"
+              >
+                Start My Custom Order
+              </Link>
+            </AnimatedReveal>
+          </div>
+        </section>
+
         {/* ── FINAL CTA BANNER ──────────────────────────────────── */}
         <section className="py-20 bg-[#F3EBDD] text-center">
           <AnimatedReveal>

@@ -323,6 +323,6 @@ export const testimonials: Testimonial[] = [
 export const navLinks: NavLink[] = [
   { label: 'Collection', href: '/shop' },
   { label: 'Story', href: '/about' },
-  { label: 'Journal', href: '#' },
+  { label: 'Custom Order', href: '/custom-order' },
   { label: 'Contact', href: '/contact' },
 ];
