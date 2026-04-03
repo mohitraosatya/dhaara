@@ -273,6 +273,62 @@ export const products: Product[] = [
     featured: true,
     bestSeller: false,
   },
+  {
+    id: '10',
+    name: 'The Floral Melody',
+    slug: 'the-floral-melody',
+    price: 2050,
+    category: 'Embroidered',
+    description:
+      'Music and flowers — two things that exist entirely to make life more beautiful. The Floral Melody brings them together on natural canvas: a hand-embroidered treble clef and red music staff enclosed in a soft blue dashed circle, with tiny blooms in pink, white, and yellow scattered at its base. The dashed circle itself feels like a stitch — a boundary drawn by thread. It is the bag for someone who hums while they walk, who finds the world more bearable with a song in it. Made slowly, one note and one petal at a time.',
+    shortDesc:
+      'Musical staff and treble clef with tiny florals in a hand-stitched circle. For those who carry music everywhere.',
+    images: ['/products/floral-melody.png'],
+    materials: [
+      'Natural canvas, medium weight',
+      'Red, black, blue, pink, white and yellow cotton thread',
+      'Hand-stitched dashed circle border detail',
+      'Standard tote handles',
+      'Clean interior with single pocket',
+    ],
+    care: [
+      'Spot clean with cool damp cloth',
+      'Air dry naturally — do not wring',
+      'Do not machine wash',
+      'Avoid ironing over embroidery',
+    ],
+    inStock: true,
+    featured: false,
+    bestSeller: true,
+  },
+  {
+    id: '11',
+    name: 'The Sunflower',
+    slug: 'the-sunflower',
+    price: 2200,
+    category: 'Statement',
+    description:
+      'There is nothing timid about a sunflower. It turns toward the light without apology. The Sunflower carries three large hand-embroidered blooms in deep golden yellow, their petals dense and layered, their centres warm brown — surrounded by strong sage-green leaves that ground the whole arrangement. This is our boldest, most joyful piece. It does not whisper. It is for the person who walks into a room and brings the warmth with them. Made with the heaviest thread count of any bag in our collection — the texture is something you have to feel to believe.',
+    shortDesc:
+      'Three bold hand-embroidered sunflowers in golden yellow and sage green. Unapologetically joyful.',
+    images: ['/products/sunflower-bloom.png'],
+    materials: [
+      'Heavyweight natural canvas',
+      'Golden yellow, warm brown, and sage green cotton thread',
+      'High thread-count embroidery — dense and textured',
+      'Reinforced short handles',
+      'Interior zip and slip pockets',
+    ],
+    care: [
+      'Spot clean gently — dense embroidery holds moisture',
+      'Dab with cool water, do not rub',
+      'Air dry flat in shade',
+      'Store with tissue paper to preserve petal shape',
+    ],
+    inStock: true,
+    featured: true,
+    bestSeller: true,
+  },
 ];
 
 export const testimonials: Testimonial[] = [
